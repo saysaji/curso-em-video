@@ -7,3 +7,6 @@ print('É alfanumérico? {}'.format(N.isalnum()))
 print('Está em maiúsculas? {}'.format(N.isupper()))
 print('Está em minúsculas? {}'.format(N.islower()))
 print('Está capitalizada? {}'.format(N.istitle()))
+
+
+
