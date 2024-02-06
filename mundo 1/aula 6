@@ -1,0 +1,14 @@
+n1= int(input('digite um número'))
+n2= int(input('digite outro número'))
+soma= n1+n2
+print ('A soma de {} e {} é igual a: {}'.format(n1,n2,soma))
+
+n1= int(input('digite um número'))
+n2= float(input('digite um número real'))
+subitra= n1-n2
+print ('A subitração entre {} e {} é igual a: {}'.format(n1,n2,subitra))
+
+n1= int(input('digite um número'))
+n2= float(input('digite outro número'))
+soma= n1+n2
+print ('A soma entre {} e {} é igual a: {}'.format(n1,n2,soma))

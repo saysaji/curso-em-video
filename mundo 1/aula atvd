@@ -1,0 +1,12 @@
+num1= int(input ('primeiro número'))
+num2= int(input ('segundo número'))
+print ('a soma é:',num1+num2)
+
+x = input('digite o primeiro numero')
+y = input('digite o segundo numero')
+soma = x+y
+print("seu numero final é", soma)
+
+n1= int(input('prieiro numero'))
+n2= int(input('segundo numero'))
+print (int(n1+n2))
