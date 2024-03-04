@@ -22,3 +22,20 @@ print ('O preço dessa viagem é de R${:.2f}'.format(preço))
 ano= int(input('Qual ano voce quer analisar?:'))
 bioun= ano % 4 ==0 and ano % 100 == 0 or ano % 400 ==0 
 print('seu ano é bissexto'if bioun == 0 else 'seu ano não é bissexto')
+
+
+valor1= int(input('digite um valor:'))
+valor2= int(input('digite um segundo valor:'))
+valor3= int(input('digite um terceiro valor:'))
+menor= valor1
+if valor2<valor1 and valor2<valor3:
+    menor=valor2
+if valor3<valor1 and valor3<valor2:
+    menor= valor3
+maior= valor1
+if valor2>valor1 and valor2>valor3:
+    maior=valor2
+if valor3>valor1 and valor3>valor2:
+    maior=valor3
+print('maior número é:{}'.format(maior))
+print('menor número é:{}'.format(menor))
