@@ -60,3 +60,20 @@ elif media >=5 and 7:
     print('recuperação! sua nota foi {:.1f} voce precisa de {:.1f} para passar.'.format(media,falta))
 else:
     print('erro na informações!')
+
+
+nasce= int(input('qual seu ano de nascemento:'))
+idd= 2024-nasce
+print('voce tem {} anos.'.format(idd))
+if idd <=9:
+     print('sua classeficação é MIRIM')
+elif idd >= 14 and idd <19:
+    print('sua classeficação é INFANTIL')
+elif idd >=19 and idd <25:
+    print('sua classeficação é JÚNIOR')
+elif idd >19 and idd <=25:
+    print('sua classeficação é SêNIOR')
+else:
+    print('sua classeficação é MASTER')
+
+
